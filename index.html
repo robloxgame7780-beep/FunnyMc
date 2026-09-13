@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>FunnyMC | Lifesteal Store</title>
+
+<style>
+*{box-sizing:border-box}
+
+html{scroll-behavior:smooth}
+
+body{
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  color:#fff;
+  background:
+  radial-gradient(circle at top,#12352d 0%,#07110f 45%,#030706 100%);
+}
+
+nav{
+  position:sticky;
+  top:0;
+  z-index:100;
+  padding:18px 25px;
+  background:rgba(3,8,7,.97);
+  border-bottom:1px solid #173c32;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.logo{
+  font-size:25px;
+  font-weight:bold;
+}
+
+.logo span{color:#20e69a}
+
+.nav-buttons a{
+  color:#fff;
+  text-decoration:none;
+  margin-left:18px;
+  font-weight:bold;
+}
+
+.nav-buttons a:hover{color:#20e69a}
+
+.hero{
+  text-align:center;
+  padding:85px 20px 70px;
+}
+
+.tag{
+  color:#20e69a;
+  font-size:16px;
+  font-weight:bold;
+}
+
+h1{
+  font-size:58px;
+  line-height:1.05;
+  margin:18px 0;
+}
+
+.hero p{
+  color:#aeb8b6;
+  font-size:18px;
+}
+
+.ip{
+  display:inline-block;
+  margin:20px 0;
+  padding:13px 22px;
+  background:#101d1a;
+  border:1px solid #20e69a;
+  border-radius:10px;
+  color:#20e69a;
+  font-weight:bold;
+}
+
+.button{
+  display:inline-block;
+  margin:8px;
+  padding:14px 27px;
+  border-radius:10px;
+  background:#16d58f;
+  color:#00150e;
+  text-decoration:none;
+  font-weight:bold;
+  transition:.2s;
+}
+
+.button:hover{
+  transform:translateY(-3px);
+  box-shadow:0 0 22px rgba(32,230,154,.3);
+}
+
+.dark{
+  background:#14231f;
+  color:#fff;
+  border:1px solid #25483e;
+}
+
+.section{
+  max-width:1150px;
+  margin:auto;
+  padding:50px 20px;
+}
+
+.section h2{
+  text-align:center;
+  font-size:32px;
+  margin-bottom:30px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:linear-gradient(145deg,#10201c,#0a1412);
+  border:1px solid #1c3b33;
+  border-radius:16px;
+  padding:25px;
+  text-align:center;
+  transition:.2s;
+  box-shadow:0 8px 30px rgba(0,0,0,.22);
+}
+
+.card:hover{
+  border-color:#20e69a;
+  transform:translateY(-5px);
+}
+
+.icon{
+  font-size:45px;
+}
+
+.card h3{
+  font-size:23px;
+  margin:12px 0;
+}
+
+.price{
+  color:#20e69a;
+  font-size:27px;
+  font-weight:bold;
+  margin:15px 0;
+}
+
+.small{
+  color:#899692;
+  font-size:14px;
+  margin-bottom:18px;
+}
+
+.buy{
+  display:block;
+  padding:13px;
+  border-radius:9px;
+  background:#13c98a;
+  color:#00150e;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.buy:hover{background:#20e69a}
+
+.coin-card{
+  border-color:#245849;
+}
+
+.feature{
+  background:#101d1a;
+  border:1px solid #19382f;
+  padding:20px;
+  border-radius:13px;
+  text-align:center;
+  font-weight:bold;
+}
+
+footer{
+  text-align:center;
+  padding:35px 20px;
+  margin-top:40px;
+  color:#778580;
+  border-top:1px solid #173027;
+}
+
+footer span{color:#20e69a}
+
+footer a{
+  color:#20e69a;
+  text-decoration:none;
+}
+
+@media(max-width:600px){
+  h1{font-size:42px}
+  nav{padding:16px}
+  .nav-buttons{display:none}
+  .hero{padding:65px 15px}
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+
+<nav>
+
+  <div class="logo">
+    🩸 <span>FunnyMC</span>
+  </div>
+
+  <div class="nav-buttons">
+    <a href="#ranks">Ranks</a>
+    <a href="#keys">Crate Keys</a>
+    <a href="#coins">Coins</a>
+    <a href="https://discord.gg/zPs5KEsyv" target="_blank">
+      Discord
+    </a>
+  </div>
+
+</nav>
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+  <div class="tag">
+    ⚡ POWERFUL MINECRAFT LIFESTEAL
+  </div>
+
+  <h1>
+    Welcome to<br>
+    <span style="color:#20e69a;">FunnyMC</span>
+  </h1>
+
+  <p>
+    Join our public Lifesteal Minecraft server.
+  </p>
+
+  <div class="ip">
+    🎮 play.funnymc.fun
+  </div>
+
+  <br>
+
+  <a class="button"
+     href="https://discord.gg/zPs5KEsyv"
+     target="_blank">
+    🛒 BUY NOW
+  </a>
+
+  <a class="button dark"
+     href="https://discord.gg/zPs5KEsyv"
+     target="_blank">
+    💬 DISCORD
+  </a>
+
+</section>
+
+
+<!-- RANKS -->
+
+<section class="section" id="ranks">
+
+<h2>👑 SERVER RANKS</h2>
+
+<div class="grid">
+
+  <div class="card">
+    <div class="icon">🌑</div>
+    <h3>Eclipse</h3>
+    <div class="price">Rs. 2,499</div>
+    <div class="small">Premium Lifesteal Rank</div>
+
+    <a class="buy"
+       href="https://discord.gg/zPs5KEsyv"
+       target="_blank">
+       BUY NOW
+    </a>
+  </div>
+
+
+  <div class="card">
+    <div class="icon">👑</div>
+    <h3>Legend</h3>
+    <div class="price">Rs. 1,799</div>
+    <div class="small">Legendary Server Rank</div>
+
+    <a class="buy"
+       href="https://discord.gg/zPs5KEsyv"
+       target="_blank">
+       BUY NOW
+    </a>
+  </div>
+
+
+  <div class="card">
+    <div class="icon">🛡️</div>
+    <h3>Knight</h3>
+    <div class="price">Rs. 999</div>
+    <div class="small">Strong PvP Rank</div>
+
+    <a class="buy"
+       href="https://discord.gg/zPs5KEsyv"
+       target="_blank">
+       BUY NOW
+    </a>
+  </div>
+
+
+  <div class="card">
+    <div class="icon">⚔️</div>
+    <h3>Warrior</h3>
+    <div class="price">Rs. 499</div>
+    <div class="small">Starter PvP Rank</div>
+
+    <a class="buy"
+       href="https://discord.gg/zPs5KEsyv"
+       target="_blank">
+       BUY NOW
+    </a>
+  </div>
+
+</div>
+
+</section>
+
+
+<!-- CRATE KEYS -->
+
+<section class="section" id="keys">
+
+<h2>🔑 CRATE KEYS</h2>
+
+<div class="grid">
+
+  <div class="card">
+    <div class="icon">🔑</div>
+    <h3>FunnyMC Key</h3>
+    <div class="price">Rs. 6,100</div>
+    <div class="small">Lifesteal Crate Key</div>
+
+    <a class="buy"
+       href="https://discord.gg/zPs5KEsyv"
+       target="_blank">
+       BUY KEY
+    </a>
+  </div>
+
+
+  <div class="card">
+    <div class="icon">📅</div>
+    <h3>Monthly Key</h3>
+    <div class="price">Rs. 3,050</div>
+    <div class="small">Lifesteal Crate Key</div>
+
+    <a class="buy"
+       href="https://discord.gg/zPs5KEsyv"
+       target="_blank">
+       BUY KEY
+    </a>
+  </div>
+
+
+  <div class="card">
+    <div class="icon">💎</div>
+    <h3>Mega Key</h3>
+    <div class="price">Rs. 1,850</div>
+    <div class="small">Lifesteal Crate Key</div>
+
+    <a class="buy"
+       href="https://discord.gg/zPs5KEsyv"
+       target="_blank">
+       BUY KEY
+    </a>
+  </div>
+
+
+  <div class="card">
+    <div class="icon">🗳️</div>
+    <h3>Vote Key</h3>
+    <div class="price">Rs. 1,200</div>
+    <div class="small">Lifesteal Crate Key</div>
+
+    <a class="buy"
+       href="https://discord.gg/zPs5KEsyv"
+       target="_blank">
+       BUY KEY
+    </a>
+  </div>
+
+
+  <div class="card">
+    <div class="icon">🎉</div>
+    <h3>Party Key</h3>
+    <div class="price">Rs. 600</div>
+    <div class="small">Lifesteal Crate Key</div>
+
+    <a class="buy"
+       href="https://discord.gg/zPs5KEsyv"
+       target="_blank">
+       BUY KEY
+    </a>
+  </div>
+
+</div>
+
+</section>
+
+
+<!-- LIFESTEAL COINS -->
+
+<section class="section" id="coins">
+
+<h2>💰 LIFESTEAL COINS</h2>
+
+<div class="grid">
+
+  <div class="card coin-card">
+    <div class="icon">🪙</div>
+    <h3>700 Coins</h3>
+    <div class="price">Rs. 175</div>
+    <div class="small">LIFESTEAL</div>
+
+    <a class="buy"
+       href="https://discord.gg/zPs5KEsyv"
+       target="_blank">
+       BUY COINS
+    </a>
+  </div>
+
+
+  <div class="card coin-card">
+    <div class="icon">🪙</div>
+    <h3>1,500 Coins</h3>
+    <div class="price">Rs. 350</div>
+    <div class="small">LIFESTEAL</div>
+
+    <a class="buy"
+       href="https://discord.gg/zPs5KEsyv"
+       target="_blank">
+       BUY COINS
+    </a>
+  </div>
+
+
+  <div class="card coin-card">
+    <div class="icon">💰</div>
+    <h3>2,800 Coins</h3>
+    <div class="price">Rs. 700</div>
+    <div class="small">LIFESTEAL</div>
+
+    <a class="buy"
+       href="https://discord.gg/zPs5KEsyv"
+       target="_blank">
+       BUY COINS
+    </a>
+  </div>
+
+
+  <div class="card coin-card">
+    <div class="icon">💎</div>
+    <h3>5,660 Coins</h3>
+    <div class="price">Rs. 1,275</div>
+    <div class="small">LIFESTEAL</div>
+
+    <a class="buy"
+       href="https://discord.gg/zPs5KEsyv"
+       target="_blank">
+       BUY COINS
+    </a>
+  </div>
+
+
+  <div class="card coin-card">
+    <div class="icon">💎</div>
+    <h3>7,800 Coins</h3>
+    <div class="price">Rs. 1,800</div>
+    <div class="small">LIFESTEAL</div>
+
+    <a class="buy"
+       href="https://discord.gg/zPs5KEsyv"
+       target="_blank">
+       BUY COINS
+    </a>
+  </div>
+
+
+  <div class="card coin-card">
+    <div class="icon">👑</div>
+    <h3>15,600 Coins</h3>
+    <div class="price">Rs. 3,400</div>
+    <div class="small">LIFESTEAL</div>
+
+    <a class="buy"
+       href="https://discord.gg/zPs5KEsyv"
+       target="_blank">
+       BUY COINS
+    </a>
+  </div>
+
+</div>
+
+</section>
+
+
+<!-- FEATURES -->
+
+<section class="section">
+
+<h2>🔥 WHY FUNNYMC?</h2>
+
+<div class="grid">
+
+  <div class="feature">
+    ❤️ Lifesteal SMP
+  </div>
+
+  <div class="feature">
+    ⚔️ PvP & Events
+  </div>
+
+  <div class="feature">
+    🌎 Public Community
+  </div>
+
+  <div class="feature">
+    🚀 Active Server
+  </div>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+  <p>
+    🩸 <span>FunnyMC</span> Lifesteal
+  </p>
+
+  <p>
+    Server IP:
+    <span>play.funnymc.fun</span>
+  </p>
+
+  <p>
+    All purchases are handled through our Discord ticket system.
+  </p>
+
+  <p>
+    💬 Discord:
+    <a href="https://discord.gg/zPs5KEsyv" target="_blank">
+      Join FunnyMC
+    </a>
+  </p>
+
+</footer>
+
+</body>
+</html>
